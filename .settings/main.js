@@ -1,8 +1,33 @@
-function sum(a) {
-    return a + 2;
-}
-var b = prompt("", "enter your number");
-alert(sum(Number(b)));
+/*this code will add object properties by using "Any" */
+//
+//var obj :any = { name : "Rida" , age : 21 };
+//obj={qualification:"BCS", class:"Module B"};
+/*Checking Of Duck Typing*/
+/* This code will also add object properties without adding "Any" */
+//var obj = { name : "rida" , age : 21 };
+//obj = { name : "Rida" , age : 21 , qualification:"BCS", class:"Module B" }
+/*Arrays*/
+var numArr = [1, 2, 3, 4, 5, 6];
+var anyArr = [1, 2, 3, "Rida"];
+alert(numArr.pop[5]);
+alert(numArr.pop[4]);
+alert(numArr.pop[3]);
+alert(numArr.pop[2]);
+alert(numArr.pop[1]);
+alert(numArr.pop[0]);
+alert(anyArr.pop[5]);
+alert(anyArr.pop[4]);
+alert(anyArr.pop[3]);
+alert(anyArr.pop[2]);
+alert(anyArr.pop[1]);
+alert(anyArr.pop[0]);
+/*function Code*/
+//function sum(a:number){
+//	return a+2;
+//}
+//var b=prompt("","enter your number");
+//alert(sum(Number(b)));
+/*Simple Hello World Code */
 //let x="Hello World";
 //document.write(x);
 /*  var obj={ name : "Rida" , id : 1 }
@@ -34,4 +59,3 @@ else{
     console.log("false");
 }
 */ 
-//# sourceMappingURL=main.js.map
