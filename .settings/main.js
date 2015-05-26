@@ -1,5 +1,10 @@
-var x = "Hello World";
-document.write(x);
+function sum(a) {
+    return a + 2;
+}
+var b = prompt("", "enter your number");
+alert(sum(Number(b)));
+//let x="Hello World";
+//document.write(x);
 /*  var obj={ name : "Rida" , id : 1 }
 obj={ name : "Rida" , id : 1 , remarks : "80%" }   */
 /*above code samw as */
@@ -29,3 +34,4 @@ else{
     console.log("false");
 }
 */ 
+//# sourceMappingURL=main.js.map
