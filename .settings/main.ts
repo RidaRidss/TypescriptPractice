@@ -15,21 +15,20 @@
 		/*Arrays*/
 var numArr : number[]=[1,2,3,4,5,6];
 var anyArr : any[]=[1,2,3,"Rida"];
-numArr.pop[5];
-numArr.pop[4];
-numArr.pop[3];
-numArr.pop[2];
-numArr.pop[1];
-numArr.pop[0];
+alert(numArr.pop[5]);
+alert(numArr.pop[4]);
+alert(numArr.pop[3]);
+alert(numArr.pop[2]);
+alert(numArr.pop[1]);
+alert(numArr.pop[0]);
 
 
-anyArr.pop[5];
-anyArr.pop[4];
-anyArr.pop[3];
-anyArr.pop[2];
-anyArr.pop[1];
-anyArr.pop[0];
-
+alert(anyArr.pop[5]);
+alert(anyArr.pop[4]);
+alert(anyArr.pop[3]);
+alert(anyArr.pop[2]);
+alert(anyArr.pop[1]);
+alert(anyArr.pop[0]);
 
 /*function Code*/
 //function sum(a:number){
