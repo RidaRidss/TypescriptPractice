@@ -23,8 +23,7 @@ alert(numArr.pop[1]);
 alert(numArr.pop[0]);
 
 
-alert(anyArr.pop[5]);
-alert(anyArr.pop[4]);
+
 alert(anyArr.pop[3]);
 alert(anyArr.pop[2]);
 alert(anyArr.pop[1]);
