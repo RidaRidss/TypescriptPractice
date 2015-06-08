@@ -161,4 +161,108 @@ else{
 		
 //			window.onload=function(){}
 			
+			/*start practice */
+	
+		// console.log("Hello World");
+		// console.log(1);
+		
+		/* number type */
+		// var a :number = 1;
+		// a = 3;
+		// a = null;
+		
+		/* string type */
+		
+		// var b :string ="Pakistan";
+		// b = "Pak";
+		
+		/*Boolean Type */
+		
+		// var c :boolean = false;
+		// c = true;
+		// c = null;
+		
+		
+		/* Const - we use const whenever we won't to change the value of that variable in all program*/
+		// const a = 1;
+		/* 	now we cannot change the value of "a"   */ 
+		/*   note:   1.    we cannot write const-variable like this : -->  const a; 
+		     variable a must have a value with const
+			 
+			 		2.   we cannot use same variable name with var and const like this :  --> var a; and const a = 1; or var a;    */
+		
+		
+		
+		
+		/*  Override a function value    */
+		
+		// var fn2 = function(){
+		// 	return 1+2;
+		// }
+		
+		/*     now we are overriding fn2 function    */
+		// fn2 = function(){
+		// 	return 2+2;
+		// }
+		
+		
+		
 			
+		// const fn1 = function(a:number):number{
+		// 	return a+2;
+		// }
+		
+		
+		// const a = [];
+		// a.push(1);
+		// fn1(1);
+		// fn1(2);
+		
+		/* here we have used "any" because Of Anynomyous variable type  named conType  */
+		
+		// var conType = "Pakistan";
+		// 		 const con :any = conType;
+
+
+
+			/*here we have constant value named variable "con"   , and contype is just a refrence , it is not a constant variable , so we can change its value */ 
+
+	// var conType;
+	// conType =5;
+	// const con :number = conType;
+	// conType="Pakistan";
+
+
+/* Another Example Of Constant  */
+
+// var conType;
+// var data = prompt("enter value");
+// if(data == "a"){
+// 	conType = "string"
+// }
+// else{
+// 	conType=1;
+// }
+
+
+/* by using let with a same variable named "num" which is available outside a scope or block , now it will not change the value of outside variable  */
+
+
+// let num =2;
+// if(true){
+// 	let result = 0;
+// 	let num = 1;
+// 	let num2 = 10;
+// 	result =num +num2;
+// 	console.log(result);
+// }
+// let newresult =num + 3;
+// console.log("num =>" + num);
+// console.log("newresult =>"+newresult);
+
+
+			/*  duck typing   */
+			let a = {id:1,name:"rida"}
+			a = {id:1,name:"abc",class:"a"}
+			a={id:1,name:"rida",lastname:"DAB"}
+			console.log(a);
