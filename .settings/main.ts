@@ -262,7 +262,76 @@ else{
 
 
 			/*  duck typing   */
-			let a = {id:1,name:"rida"}
-			a = {id:1,name:"abc",class:"a"}
-			a={id:1,name:"rida",lastname:"DAB"}
-			console.log(a);
+			// let a = {id:1,name:"rida"}
+			// a = {id:1,name:"abc",class:"a"}
+			// a={id:1,name:"rida",lastname:"DAB"}
+			// console.log(a);
+			
+			// let arr:Array<string>=["R","I","D","A"]
+			
+	/*	note :	 we use enum number in human readable form , we can extend enum but */
+	// enum doorstate{
+	// 	open,close
+	// }
+	// console.log(doorstate.close);
+	
+	/* note: if we have not give the values , if will give values by default 0 and 1 , we can create ambiguity like this */
+	// enum doorstate{open,close}
+	// enum doorstate{A=0}
+	// console.log(doorstate.close);
+	// console.log(doorstate.open);
+/*now open is equal to 0 , close is equal to 1 , and A is also equal to 0 , but now 0 is equal to A , 0is not equal to open,it will select last value , and also assign value oppositely , like  1 is also equal to close as close is equal to 1 */
+			
+			/*  function */
+			
+			/*   if we want to define the return type value of function */
+			// function fn1(a:number,b:number):number{return(a+b)}
+			// alert(fn1(1,2));
+			// alert(typeof(fn1));
+
+
+			// var fn1 = function():number{}
+			// fn1 = function(a){return 2;}	
+			
+			/* if we want to declare a variable and also tell it that it will contain a function whose type will be a number , we will code it like as below: */
+		
+			// var a1 : () => number; 
+			
+			// var b1 :number;
+			// var b2 :string;
+			// var b3:boolean;
+			// var b4:number[];
+			// var b5:Array<any>;
+			// var a1 : Function;	
+			
+			/*  We can parameter as optional from right side by writing ? mark with the last parameter name in function definition 
+			
+			note : optional parameters from left side is not allowed 
+			
+			*/
+			
+			// function Name(fname:string,lname?:string){
+			// 	return fname+lname;
+			// }		
+			// Name("Rida","Bilgrami");
+			// Name("rida");
+			
+			
+			/*  Default Parameters  */
+// function sum(a,b,c,d,e){
+// 	return	a+b+c+d+e;
+// }
+// alert(sum(1,2,null,3,4)) ;
+
+
+/*now it will neglect null value in above code */
+
+
+function sum(a,b,c=0,d=0,e=0){
+	alert("a :" + a);
+	alert("b :" + b);
+	alert("c :" + c);
+	alert("d :" + d);
+	alert("e :" + e);
+}
+alert(sum(1,2,null));
