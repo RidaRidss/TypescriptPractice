@@ -327,11 +327,11 @@ else{
 /*now it will neglect null value in above code */
 
 
-function sum(a,b,c=0,d=0,e=0){
-	alert("a :" + a);
-	alert("b :" + b);
-	alert("c :" + c);
-	alert("d :" + d);
-	alert("e :" + e);
-}
-alert(sum(1,2,null));
+// function sum(a,b,c=0,d=0,e=0){
+// 	alert("a :" + a);
+// 	alert("b :" + b);
+// 	alert("c :" + c);
+// 	alert("d :" + d);
+// 	alert("e :" + e);
+// }
+// alert(sum(1,2,null));
