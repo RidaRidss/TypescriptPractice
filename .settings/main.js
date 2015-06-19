@@ -231,5 +231,33 @@ note : optional parameters from left side is not allowed
 // 	alert("d :" + d);
 // 	alert("e :" + e);
 // }
-// alert(sum(1,2,null)); 
+// alert(sum(1,2,null));
+// Step wise practice //
+///* Data Types
+//1. Boolean
+//var myBoolean = true;
+//console.log(myBoolean);
+//
+//2.String
+// var myString = "test";
+//var name: string = "bob";
+//name = 'smith';
+//3. Number
+//  var myNumber = 1;
+//now we can not assign these values to each other like this :
+//myString = myNumber;
+//myBoolean = myString;
+//myNumber = myBoolean;
+//TypeScript is a strongly typed language.
+var myString = "test";
+var myNumber = 1;
+var myBoolean = true;
+//4. Array
+//
+//5. enum
+//
+//6. Any
+//
+//7. void
+// */
 //# sourceMappingURL=main.js.map
