@@ -438,3 +438,6 @@ console.log(list['0']);
  complexType = { id: 2, name: "anotherName" };
  console.log(complexType.name);
 console.log(complexType.id);
+
+// note about the duck typing :
+// we can extend the properties , but it must contain previous properties
