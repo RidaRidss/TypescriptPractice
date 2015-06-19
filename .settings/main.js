@@ -252,6 +252,17 @@ note : optional parameters from left side is not allowed
 var myString = "test";
 var myNumber = 1;
 var myBoolean = true;
+myString = myNumber.toString();
+myBoolean = (myString === "test");
+if (myBoolean) {
+    myNumber = 1;
+}
+alert("MyString value is " + myString);
+alert("MyString Type is : " + typeof (myString));
+alert("MyBoolean value is " + myBoolean);
+alert("MyBoolean Type is : " + typeof (myBoolean));
+alert("MyNumber value is " + myNumber);
+alert("MyNumber Type is : " + typeof (myNumber));
 //4. Array
 //
 //5. enum

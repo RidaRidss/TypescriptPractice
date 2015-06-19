@@ -371,6 +371,17 @@ var myString : string = "test";
 var myNumber: number = 1;
 var myBoolean : boolean = true;
 
+myString = myNumber.toString();
+myBoolean = (myString === "test");
+if (myBoolean) {
+	myNumber = 1;
+}
+alert("MyString value is "+ myString);
+alert("MyString Type is : " + typeof(myString));
+alert("MyBoolean value is " + myBoolean);
+alert("MyBoolean Type is : " + typeof(myBoolean));
+alert("MyNumber value is " + myNumber);
+alert("MyNumber Type is : " + typeof(myNumber));
 
 //4. Array
 //
