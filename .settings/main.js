@@ -272,7 +272,14 @@ note : optional parameters from left side is not allowed
 
  */
 //4. Array
-//
+// Array types can be written in two ways :
+// Ist way
+var list = [1, 2, 3];
+console.log(list);
+// we are listing here ist position of an array named "list"
+console.log(list[0]);
+// or above can also be written as :
+console.log(list['0']);
 //5. enum
 //
 //6. Any

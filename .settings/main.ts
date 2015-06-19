@@ -390,8 +390,19 @@ else{
  //myNumber = myString;   //type string is not assignable to type string  or Cannot convert 'string' to 'number'
 
  */
+
 //4. Array
-//
+// Array types can be written in two ways :
+
+// Ist way
+
+   var list:number[] = [1, 2, 3];
+console.log(list);
+// we are listing here ist position of an array named "list"
+console.log(list[0]);
+// or above can also be written as :
+console.log(list['0']);
+
 //5. enum
 //
 //6. Any
