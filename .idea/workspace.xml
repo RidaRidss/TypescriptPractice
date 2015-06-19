@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/main.js.map" afterPath="$PROJECT_DIR$/.settings/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/main.js" afterPath="$PROJECT_DIR$/.settings/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/main.ts" afterPath="$PROJECT_DIR$/.settings/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ridssassignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.settings/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95238096">
-              <caret line="442" column="73" selection-start-line="442" selection-start-column="73" selection-end-line="442" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.85714287">
+              <caret line="420" column="23" selection-start-line="420" selection-start-column="23" selection-end-line="420" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -51,9 +52,11 @@
         <entry file="file://$PROJECT_DIR$/.settings/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+              <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <marker date="1434731532375" expanded="true" signature="57:59" placeholder="//..." />
+                <marker date="1434731532375" expanded="true" signature="9373:9376" placeholder="//..." />
               </folding>
             </state>
           </provider>
@@ -263,6 +266,8 @@
           <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1434731532375" expanded="true" signature="57:59" placeholder="//..." />
+            <marker date="1434731532375" expanded="true" signature="9373:9376" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -291,6 +296,8 @@
           <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1434731532375" expanded="true" signature="57:59" placeholder="//..." />
+            <marker date="1434731532375" expanded="true" signature="9373:9376" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -319,6 +326,8 @@
           <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1434731532375" expanded="true" signature="57:59" placeholder="//..." />
+            <marker date="1434731532375" expanded="true" signature="9373:9376" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -347,6 +356,8 @@
           <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1434731532375" expanded="true" signature="57:59" placeholder="//..." />
+            <marker date="1434731532375" expanded="true" signature="9373:9376" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -354,9 +365,11 @@
     <entry file="file://$PROJECT_DIR$/.settings/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1434731532375" expanded="true" signature="57:59" placeholder="//..." />
+            <marker date="1434731532375" expanded="true" signature="9373:9376" placeholder="//..." />
           </folding>
         </state>
       </provider>
@@ -371,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.settings/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95238096">
-          <caret line="442" column="73" selection-start-line="442" selection-start-column="73" selection-end-line="442" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.85714287">
+          <caret line="420" column="23" selection-start-line="420" selection-start-column="23" selection-end-line="420" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
