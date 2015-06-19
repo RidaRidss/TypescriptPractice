@@ -283,40 +283,47 @@ console.log(list);
 console.log(list[0]);
 // or above can also be written as :
 console.log(list['0']);
-
- let array1 : number[] = [5, 6, 7];//correct syntax
- console.log(array1[1]);//correct syntax
-//or
-console.log(array1['1']);
- let array2:Array<number> = [1, 2, 3];//alternative correct syntax
-console.log(array2[0]);
-console.log(array2['0']);
- let array3 : number[] = []; //correct syntax to define an empty array
-console.log(array3[3]);
-
+*/
+// let array1 : number[] = [5, 6, 7];//correct syntax
+// console.log(array1[1]);//correct syntax
+////or
+//console.log(array1['1']);
+// let array2:Array<number> = [1, 2, 3];//alternative correct syntax
+//console.log(array2[0]);
+//console.log(array2['0']);
+// let array3 : number[] = []; //correct syntax to define an empty array
+//console.log(array3[3]);
 //
+//var arrayOfNumbers: number[] = [1, 2, 3];
+//arrayOfNumbers = [3, 4, 5];
+//alert(arrayOfNumbers[1]);
+//arrayOfNumbers=[Number("3"),Number("4"),Number("5")];
+//alert(arrayOfNumbers[1]);
 //5. enum
 // an enum is a way of giving more friendly names to sets of numeric values
-
 //enum Color {Red,Green,Blue};
 // if we have not already set the value in enum , it will set the values itself .
 // By default, enums begin numbering their members starting at 0.
 // so enum will set the values like this , Red = 0 , Green = 1 , Blue = 2
 //var c : Color = Color.Green;
-
 //console.log(c); //value 1 will be loged on console
-
 // or we can search the values like this
-
 //var d : Color = Color["1"];
-
-
 //6. Any
-//
+// 
+//let myType : any = { name: "Zia", id: 1 };
+//myType = { id: 2,  name: "Tom" };// can only assign a type which has the at least the same properties
+//myType = { id: 3,  name: "Mike", gender: false };//can add a property
+//myType = { name: "Mike", gender: false };//can even reduce the properties because of any type
+//alert(myType.name);
+//alert(myType.gender);
+//alert(myType.id);
+//let notSure: any = 4;
+//notSure = "maybe a string instead";
+//notSure = false;
+//alert(notSure);
 //7. void
-
 // void is just opposite of any , void is used whenever any thing has no type , or it is generally used for a function which returns nothing
-
 //function warnUser():void{
 //	alert("This is warning message");
 //}
