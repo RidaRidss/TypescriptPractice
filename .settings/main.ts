@@ -411,7 +411,16 @@ console.log(list[0]);
 console.log(list['0']);
 
 //5. enum
-//
+// an enum is a way of giving more friendly names to sets of numeric values
+
+*/
+enum Color {Red,Green,Blue};
+// if we have not already set the value in enum , it will set the values itself .
+// By default, enums begin numbering their members starting at 0.
+// so enum will set the values like this , Red = 0 , Green = 1 , Blue = 2
+var c : Color = Color.Green;
+console.log(c); //value 1 will be loged on console
+
 //6. Any
 //
 //7. void
