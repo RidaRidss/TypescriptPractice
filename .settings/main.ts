@@ -396,7 +396,13 @@ else{
 
 // Ist way
 
-   var list:number[] = [1, 2, 3];
+   //var list:number[] = [1, 2, 3];
+
+//second way
+
+//var list:Array<number> = [1, 2, 3];
+
+
 /*we are listing here a complete array named "list"
 console.log(list);
 // we are listing here ist position of an array named "list"

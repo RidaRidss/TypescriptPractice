@@ -28,8 +28,8 @@
       <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.settings/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95238096">
-              <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8333333">
+              <caret line="400" column="12" selection-start-line="400" selection-start-column="12" selection-end-line="400" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -51,10 +51,10 @@
         <entry file="file://$PROJECT_DIR$/.settings/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1434700025959" expanded="true" signature="7735:8308" placeholder="//..." />
+                <marker date="1434700119352" expanded="true" signature="7735:8370" placeholder="//..." />
               </folding>
             </state>
           </provider>
@@ -245,18 +245,18 @@
     <entry file="file://$PROJECT_DIR$/.settings/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1434700025959" expanded="true" signature="7735:8308" placeholder="//..." />
+            <marker date="1434700119352" expanded="true" signature="7735:8370" placeholder="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.settings/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95238096">
-          <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="400" column="12" selection-start-line="400" selection-start-column="12" selection-end-line="400" selection-end-column="12" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
