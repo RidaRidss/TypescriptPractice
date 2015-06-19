@@ -249,20 +249,28 @@ note : optional parameters from left side is not allowed
 //myBoolean = myString;
 //myNumber = myBoolean;
 //TypeScript is a strongly typed language.
-var myString = "test";
-var myNumber = 1;
-var myBoolean = true;
-myString = myNumber.toString();
-myBoolean = (myString === "test");
-if (myBoolean) {
-    myNumber = 1;
-}
-alert("MyString value is " + myString);
-alert("MyString Type is : " + typeof (myString));
-alert("MyBoolean value is " + myBoolean);
-alert("MyBoolean Type is : " + typeof (myBoolean));
-alert("MyNumber value is " + myNumber);
-alert("MyNumber Type is : " + typeof (myNumber));
+//var myString : string = "test";
+//var myNumber: number = 1;
+//var myBoolean : boolean = true;
+//
+//myString = myNumber.toString();
+//myBoolean = (myString === "test");
+//if (myBoolean) {
+//	myNumber = 1;
+//}
+//alert("MyString value is "+ myString);
+//alert("MyString Type is : " + typeof(myString));
+//alert("MyBoolean value is " + myBoolean);
+//alert("MyBoolean Type is : " + typeof(myBoolean));
+//alert("MyNumber value is " + myNumber);
+//alert("MyNumber Type is : " + typeof(myNumber));
+/* Infered Typing
+
+ //var myString = "this is a string";
+ //var myNumber = 1;
+ //myNumber = myString;   //type string is not assignable to type string  or Cannot convert 'string' to 'number'
+
+ */
 //4. Array
 //
 //5. enum

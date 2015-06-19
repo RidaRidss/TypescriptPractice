@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/main.js.map" afterPath="$PROJECT_DIR$/.settings/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/main.js" afterPath="$PROJECT_DIR$/.settings/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/main.ts" afterPath="$PROJECT_DIR$/.settings/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ridssassignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.settings/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8333333">
-              <caret line="378" column="9" selection-start-line="378" selection-start-column="9" selection-end-line="378" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.9047619">
+              <caret line="389" column="112" selection-start-line="389" selection-start-column="112" selection-end-line="389" selection-end-column="112" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -52,9 +51,10 @@
         <entry file="file://$PROJECT_DIR$/.settings/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <marker date="1434699651660" expanded="true" signature="7735:8018" placeholder="//..." />
               </folding>
             </state>
           </provider>
@@ -245,17 +245,18 @@
     <entry file="file://$PROJECT_DIR$/.settings/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1434699651660" expanded="true" signature="7735:8018" placeholder="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.settings/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8333333">
-          <caret line="378" column="9" selection-start-line="378" selection-start-column="9" selection-end-line="378" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.9047619">
+          <caret line="389" column="112" selection-start-line="389" selection-start-column="112" selection-end-line="389" selection-end-column="112" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
