@@ -414,14 +414,27 @@ console.log(list['0']);
 // an enum is a way of giving more friendly names to sets of numeric values
 
 */
-enum Color {Red,Green,Blue};
+//enum Color {Red,Green,Blue};
 // if we have not already set the value in enum , it will set the values itself .
 // By default, enums begin numbering their members starting at 0.
 // so enum will set the values like this , Red = 0 , Green = 1 , Blue = 2
-var c : Color = Color.Green;
-console.log(c); //value 1 will be loged on console
+//var c : Color = Color.Green;
+
+//console.log(c); //value 1 will be loged on console
+
+// or we can search the values like this
+
+//var d : Color = Color["1"];
+
 
 //6. Any
 //
 //7. void
 // */
+
+/* TypeScript also uses a method called duck-typing for more complex variable types
+*/
+ var complexType = { name: "myName", id: 1 };
+ complexType = { id: 2, name: "anotherName" };
+ console.log(complexType.name);
+console.log(complexType.id);
