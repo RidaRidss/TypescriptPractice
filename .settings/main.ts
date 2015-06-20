@@ -540,3 +540,98 @@ console.log(list['0']);
 
 //Optional parameters
 
+//var concatStrings = function(a, b, c) {
+//	return a + b + c;
+//}
+//console.log(concatStrings("a", "b", "c"));
+//console.log(concatStrings("a", "b"));  // this line will be loged as abundefined i.e concatenated string( a , b , undefined)
+// or //Error: Supplied parameters do not match any signature of call target.
+
+
+//TypeScript introduces the question mark ? syntax to indicate optional parameters.
+
+//function buildName(firstName: string, lastName?: string) : string {//Named function with optional parameters
+//	if (lastName)
+//		return firstName + " " + lastName;
+//	else
+//		return firstName;
+//}
+//console.log( buildName("Bob"));  //works correctly because last parameter is optional
+////var result2 = buildName("Bob", "Adams", "Sr.");  //error, too many parameters
+//var result4=buildName("Bob", "Adams");  //correct
+////anonymous function type with optional parameters
+//var buildName1 : (firstName: string, lastName?: string) => string =
+//	function(firstName: string, lastName?: string) : string {
+//		if (lastName)
+//			return firstName + " " + lastName;
+//		else
+//			return firstName;
+//	}
+
+
+//note : The optional parameters must be the last parameters in the function definition. You can have as many optional parameters as you want, as long as non-optional parameters precede the optional parameters.
+
+
+//function buildName(firstName: string, lastName = "Smith") {
+//	return firstName + " " + lastName;
+//}
+//
+//var result1 = buildName("Bob");  //works correctly now, also
+//alert(result1);
+//var result2 = buildName("Bob", "Adams", "Sr.");  //error, too many parameters
+//alert(result2);
+//var result3 = buildName("Bob", "Adams");  //ah, just right
+//alert(result3);
+
+//note : share the same type "(firstName: string, lastName?: string)=>string". The default value of the default parameter disappears, leaving only the knowledge that the parameter is optional.
+
+//Default parameters
+
+// Note that using the default parameter syntax will automatically make the parameter optional.
+
+//function buildName(firstName: string, lastName = "Khan") : string {//Named function with optional parameters
+//	if (lastName)
+//		return firstName + " " + lastName;
+//	else
+//		return firstName;
+//}
+//
+//var result1 = buildName("Bob");  //works correctly because last parameter is optional
+//alert(result1);
+////var result2 = buildName("Bob", "Adams", "Sr.");  //error, too many parameters
+//var result3 = buildName("Bob", "Adams");  //correct
+//
+////anonymous function type with defult parameters (Note that the parameter type will be optional even with defult value)
+//var buildName1 : (firstName: string, lastName?: string) => string =
+//	function(firstName: string, lastName = "Khan") : string {
+//		if (lastName)
+//			return firstName + " " + lastName;
+//		else
+//			return firstName;
+//	}
+
+//Rest Parameters
+
+//you may not know how many parameters a function will ultimately take. In JavaScript, you can work with the arguments direction using the arguments variable that is visible inside every function body
+
+//function buildName(firstName: string, ...restOfName: string[]) {
+//	return firstName + " " + restOfName.join(" ");
+//}
+//
+//var employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
+
+
+//function buildName(firstName: string, ...restOfName: string[]) {//Named function with Rest parameters
+//	return firstName + " " + restOfName.join(" ");
+//}
+//
+//var employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
+//
+//
+//
+//
+////anonymous function type with Rest parameters
+//var buildNameFun: (fname: string, ...rest: string[])=>string =
+//	function (firstName: string, ...restOfName: string[]) {
+//		return firstName + " " + restOfName.join(" ");
+//	}
