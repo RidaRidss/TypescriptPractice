@@ -310,8 +310,13 @@ console.log(list['0']);
 // or we can search the values like this
 //var d : Color = Color["1"];
 //6. Any
-// 
+// The 'any' type is a powerful way to work with existing JavaScript, allowing you to gradually opt-in and opt-out of type-checking during compilation.
 //let myType : any = { name: "Zia", id: 1 };
+// above line of code is same as below line of code:
+//let myType = <any> { name: "Zia", id: 1 };       					// this is called Explicit Casting //
+//myType = { id: 2,  name: "Tom" };// can only assign a type which has the at least the same properties
+//myType = { id: 3,  name: "Mike", gender: false };//can add a property
+//myType = { name: "Mike", gender: false };//can even reduce the properties because of initial any explict casting
 //myType = { id: 2,  name: "Tom" };// can only assign a type which has the at least the same properties
 //myType = { id: 3,  name: "Mike", gender: false };//can add a property
 //myType = { name: "Mike", gender: false };//can even reduce the properties because of any type
