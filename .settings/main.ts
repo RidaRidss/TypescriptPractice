@@ -612,6 +612,8 @@ console.log(list['0']);
 
 //Rest Parameters
 
+// Rest parameters can be used in any function be it function/()=>/class member.
+
 //you may not know how many parameters a function will ultimately take. In JavaScript, you can work with the arguments direction using the arguments variable that is visible inside every function body
 
 //function buildName(firstName: string, ...restOfName: string[]) {
@@ -635,3 +637,45 @@ console.log(list['0']);
 //	function (firstName: string, ...restOfName: string[]) {
 //		return firstName + " " + restOfName.join(" ");
 //	}
+
+			/* lambda expression  or fat arrow function
+ //You don't need to keep typing function
+ //It lexically captures the meaning of this
+			 var add = (a: number, b: number) => {
+			 return a + b;
+			 }
+
+			 var add1 = (x: number, y: number) => (x + y);
+
+			 var myFunction = f => { this.x = "x"; }//automatically creating the that-equals-this pattern
+above line of code same execute like this
+			 var _this = this;
+			 var myFunction = function (f) {
+			 _this.x = "x";
+			 };
+*/
+
+
+					// Call back functions
+//A callback function is a function that is passed into another function
+
+
+//       function overloads
+//overloads give us type-checked calls
+
+//its customary to order overloads from most specific to least specific
+//function add(arg1: string, arg2: string): string;//option 1
+//function add(arg1: number, arg2: number): number;//option 2
+//function add(arg1: boolean, arg2: boolean): boolean;//option 3
+//function add(arg1: any, arg2: any): any {//this is not part of the overload list, so it only has three overloads
+//	return arg1 + arg2;
+//}
+//
+////Calling 'add' with any other parameter types would cause an error except for the three options
+//console.log(add(1, 2)); //3
+//console.log(add("Hello", "World"));//HelloWorld
+//console.log(add(true, false)); //true
+//console.log(add(true, 2));  //3
+//console.log(add(1,false));  //1
+
+
