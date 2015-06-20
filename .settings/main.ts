@@ -105,11 +105,11 @@ else{
 	/*if we save values of one object in anothera object */ 
 //var c = a;
 		/*then both will be equal */
-//if(c == a){
-//alert("Yes c = = a");
+//if(c == b){
+//alert("Yes c = = b");
 //}
 //else{
-//	alert("No, c is not equal to a");
+//	alert("No, c is not equal to b");
 //}
 
 
@@ -152,7 +152,7 @@ else{
 
 
 
-/* self calling anonyms function , it will create , call , execute and end at the same time or at (line no. 154) */
+/* self calling anonyms function , it will create , call , execute and end at the same time or at (line no. 157) */
 
 //			(function (){alert("self calling funaction")});
 			
