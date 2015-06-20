@@ -431,6 +431,8 @@ console.log(list['0']);
 //5. enum
 // an enum is a way of giving more friendly names to sets of numeric values
 
+//TypeScript will assign a numeric value to each of these human readable enum values.
+
 //enum Color {Red,Green,Blue};
 // if we have not already set the value in enum , it will set the values itself .
 // By default, enums begin numbering their members starting at 0.
@@ -443,6 +445,31 @@ console.log(list['0']);
 
 //var d : Color = Color["1"];
 
+//enum Color {Red, Green, Blue};//starts with 0
+//var c: Color = Color.Green;
+//
+//enum Color1 {Red = 1, Green, Blue};
+//var colorName: string = Color[2];
+//console.log(colorName);
+//
+//enum Color2 {Red = 1, Green = 2, Blue = 4};//can assign values to all
+//var colorIndex = Color2["Blue"];
+//console.log(colorIndex);
+
+
+// const enum
+
+//const enum Color {Red, Green, Blue};//starts with 0
+//var c: Color = Color.Green;
+//
+//const enum Color1 {Red = 1, Green, Blue};
+////var colorName: string = Color[2] //Not allowed with const enums
+//console.log(colorName);
+//
+//
+//const enum Color2 {Red = 1, Green = 2, Blue = 4};//can assign values to all
+//var colorIndex = Color2["Blue"];
+//console.log(colorIndex);
 
 //6. Any
 // The 'any' type is a powerful way to work with existing JavaScript, allowing you to gradually opt-in and opt-out of type-checking during compilation.
@@ -491,3 +518,25 @@ console.log(list['0']);
 //let myType = { name: "Zia", id: 1 };
 //myType = { id: 2,  name: "Tom" };// can only assign a type which has the atleast the same properties
 //myType = { id: 3,  name: "Mike", gender: false };//can add a property
+
+
+//function
+
+//function add(x: number, y: number): number {//Named function
+//	return x+y;
+//}
+//
+//var myAdd1 = function(x: number, y: number): number { //Anonymous function
+//	return x+y;
+//};
+//
+//var myAdd2: (x:number, y:number)=>number = 	function(x: number, y: number): number { //Anonymous function with type
+//	return x+y;
+//};
+//
+//var myAdd3: (baseValue:number, increment:number)=>number = 	function(x: number, y: number): number { //type names dont matter
+//	return x+y;
+//};
+
+//Optional parameters
+
