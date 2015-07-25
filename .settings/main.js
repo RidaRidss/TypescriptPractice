@@ -320,6 +320,16 @@ console.log(list['0']);
 //enum Color2 {Red = 1, Green = 2, Blue = 4};//can assign values to all
 //var colorIndex = Color2["Blue"];
 //console.log(colorIndex);
+//var Color1;
+//(function (Color1) {
+  //  Color1[Color1["Red"] = 1] = "Red";
+    //Color1[Color1["Green"] = -2] = "Green";
+    //Color1[Color1["Blue"] = -1] = "Blue";
+//})(Color1 || (Color1 = {}));
+//;
+//var colorName = Color1[-2]; // alternate way var colorname= Color1[1];
+//console.log("value of color_name: " + colorName);
+//console.log(-1 /* Blue */);
 // const enum
 //const enum Color {Red, Green, Blue};//starts with 0
 //var c: Color = Color.Green;
