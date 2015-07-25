@@ -201,7 +201,7 @@ else{
 		// }
 		
 		/*     now we are overriding fn2 function    */
-		// fn2 = function(){
+		// fn2 = ()=>{
 		// 	return 2+2;
 		// }
 		
@@ -456,6 +456,11 @@ console.log(list['0']);
 //var colorIndex = Color2["Blue"];
 //console.log(colorIndex);
 
+//enum Color1 {Red = 1, Green=-2, Blue};
+// var colorName: string = Color1[-2];   // alternate way var colorname= Color1[1];
+
+// console.log("value of color_name: "+colorName);
+// console.log(Color1.Blue);
 
 // const enum
 
