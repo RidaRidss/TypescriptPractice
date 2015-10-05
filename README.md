@@ -1,6 +1,5 @@
- #Typescript Practice 
-
-// TypeScript is a syntactic sugar for JavaScript. 
+# Typescript Practice 
+              // TypeScript is a syntactic sugar for JavaScript. 
 
 The TypeScript type system enables programmers to express limits on the capabilities of JavaScript objects, and to use tools that enforce these limits. To minimize the number of annotations needed for tools to become useful, the TypeScript type system makes extensive use of type inference.
 
