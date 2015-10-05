@@ -1,6 +1,4 @@
-
-
- # Typescript Practice 
+ #Typescript Practice 
 
 // TypeScript is a syntactic sugar for JavaScript. 
 
